@@ -1,5 +1,5 @@
-body {
-  overflow-x: hidden;
+*{
+  /* overflow-x: hidden; */
   font-family: "poppins", sans-serif;
 }
 .search-field {
@@ -14,7 +14,7 @@ body {
 }
 .search-box {
   border: 1px solid rgb(3, 118, 211);
-  width: 281px;
+  width: 276px;
   border-radius: 5px;
   margin: auto;
   margin-top: 50px;
@@ -23,7 +23,7 @@ body {
 .search-button {
   padding: 10px 50px;
   border-radius: 25px;
-  margin-left: 20px;
+  margin-left: -20px;
 }
 #all-products {
   display: grid;
@@ -38,11 +38,20 @@ body {
 .single-product {
   padding: 10px;
   transition: 0.6s;
+  height: 600px;
+  width: 300px;
+  margin: 20px;
+  color: rgb(0, 0, 0);
+  background-color: rgb(226, 255, 255);
+
 }
 .single-product:hover {
   box-shadow: 4px 4px 7px gray;
   border-radius: 10px;
   border: 1px solid cyan;
+
+
+
 }
 .product-image {
   width: 150px;
