@@ -48,7 +48,7 @@ const productDetails = (product) => {
 
   const productCategory = document.getElementById('catagory')
   productCategory.innerText = `${product.category}`
-  const productRatings = document.getElementById('product-ratings')
+  const productRatings = document.getElementById('rating')
   productRatings.innerText = `${product.rating.rate}`
   const productPrice = document.getElementById('product-price')
   productPrice.innerText = `$${product.price}`
@@ -58,12 +58,6 @@ const productDetails = (product) => {
 
 
 }
-
-
-
-
-
-
 
 
 let count = 0;
